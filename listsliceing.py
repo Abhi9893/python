@@ -1,6 +1,6 @@
 # list_slicing.py
 
-pn =["vikas","ram","rohan","divya",4,True,40.5,23]
+# pn =["vikas","ram","rohan","divya",4,True,40.5,23]
 # 0,1,2,3,4      -1,-2,-3
 #print(pn[0][3])
 #print(pn[-4 : -1])
@@ -29,3 +29,12 @@ pn =["vikas","ram","rohan","divya",4,True,40.5,23]
 
 #output = apple,cherry,banana
 
+["FA2",95]
+marks =["FA1",80,"FA2",85,"FA3",95]
+report =marks[-4:]
+#"FA2",85,"FA3",95
+print(report)
+report=report[:1]+marks[:5]
+report=marks[2:3]+marks[-2]
+report=marks[-4:-2]
+report=report[:2]
